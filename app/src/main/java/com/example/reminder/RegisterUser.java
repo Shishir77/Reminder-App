@@ -96,7 +96,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
             editTextEmail.requestFocus() ;
             return ;
         }
-
+//hello
         //check email patterns
 
         if(!Patterns.EMAIL_ADDRESS.matcher(Email).matches())

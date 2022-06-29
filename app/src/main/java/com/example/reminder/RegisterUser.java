@@ -137,7 +137,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
                              {
                                  Toast.makeText(RegisterUser.this , "User has been registered", Toast.LENGTH_LONG).show();
                                 progressBar.setVisibility(View.GONE);  }
-                             else {  Toast.makeText(RegisterUser.this , "User not registered", Toast.LENGTH_LONG).show();
+                             else {  Toast.makeText(RegisterUser.this , "User not istered", Toast.LENGTH_LONG).show();
                                  progressBar.setVisibility(View.GONE); }                                   }
                                                       });
 

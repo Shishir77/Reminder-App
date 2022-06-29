@@ -100,7 +100,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
         //check email patterns
 
         if(!Patterns.EMAIL_ADDRESS.matcher(Email).matches())
-        {   editTextEmail.setError("Please provide valid email") ;
+        {   editTextEmail.setError("Please provide a valid email") ;
             editTextEmail.requestFocus() ;
             return ;
         }
